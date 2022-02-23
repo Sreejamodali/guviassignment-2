@@ -1,0 +1,67 @@
+import numpy as np
+
+np.__version__
+
+a=np.zeros(10)
+a
+len(a)
+
+a.itemsize
+
+np.info(np.add())
+
+a=np.zeros(10)
+a[4]=1
+a
+
+b=np.arange(10,49)
+b
+
+c=[1,2,3,4,5,6,7]
+c[::-1]
+
+d=np.arange(0,9)
+d.reshape(3,3)
+
+
+a=[1,2,0,0,4,0]
+np.nonzero(a)
+
+b=np.eye(3,3)
+b
+
+import random
+c=np.random.random([3,3,3])
+c
+
+d=np.random.random([10,10])
+print(d.min())
+print(d.max())
+
+import numpy as np
+n=30
+a=(np.random.random(n))
+
+a.mean()
+
+b=np.array([[1,2,3,4,5],[1,2,3,4,5]])
+
+x = np.ones((5,5))
+x
+
+x[1:-1,1:-1] = 0
+x
+
+y=np.array16th question
+
+0 * np.nan
+np.nan == np.nan
+np.inf > np.nan
+np.nan - np.nan
+0.3 == 3 * 0.1
+False
+
+a=np.array([[1,1,1,1,1],[2,2,2,2,2],[1,1,1,1,1],[2,2,2,2,2],[1,2,3,4,5]])
+
+a
+
